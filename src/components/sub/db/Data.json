@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "name": "youjin",
+      "Department": "CEO",
+      "pic": "member1.jpg",
+      "says": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptates soluta, sapiente porro neque voluptatem facilis illum dolore praesentium quod consectetur? Omnis molestias facere id rem veritatis quos aliquid quaerat?"
+    },
+    {
+      "name": "lirly",
+      "Department": "Marketing",
+      "pic": "member2.jpg",
+      "says": "dolor sit amet ,consectetur adipisicing elit. Fugiat voluptates soluta, sapiente porro neque voluptatem facilis illum dolore praesentium quod consectetur? Omnis molestias facere id rem veritatis quos aliquid quaerat?"
+    },
+    {
+      "name": "tom",
+      "Department": "Marketing",
+      "pic": "member3.jpg",
+      "says": "dolor sit amet consectetur adipisicing elit. Fugiat voluptates soluta, sapiente porro neque voluptatem facilis illum dolore praesentium quod consectetur? Omnis molestias facere id rem veritatis quos aliquid quaerat?"
+    },
+    {
+      "name": "des",
+      "Department": "Production",
+      "pic": "member4.jpg",
+      "says": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, mollitia laborum. Expedita obcaecati veniam officiis! Lorem ipsum dolor sit amet. Omnis molestias facere id"
+    },
+    {
+      "name": "Kim",
+      "Department": "Production",
+      "pic": "member5.jpg",
+      "says": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus enim aperiam corporis, eius, laudantium dolor laboriosam voluptatibus necessitatibus ipsam itaque, natus animi exercitationem omnis libero magnam quas. Inventore, molestias rem."
+    },
+    {
+      "name": "Emma",
+      "Department": "Production",
+      "pic": "member6.jpg",
+      "says": "dolor sit amet consectetur adipisicing elit. Fugiat voluptates soluta, sapiente porro neque voluptatem facilis illum dolore praesentium quod consectetur? Omnis molestias facere id rem veritatis quos aliquid quaerat?"
+    },
+    {
+      "name": "gely",
+      "Department": "Production",
+      "pic": "member8.jpg",
+      "says": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus enim aperiam corporis, eius, laudantium dolor laboriosam voluptatibus necessitatibus ipsam itaque, natus animi exercitationem omnis libero magnam quas. Inventore, molestias rem."
+    },
+    {
+      "name": "sweet",
+      "Department": "Production",
+      "pic": "member9.jpg",
+      "says": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, mollitia laborum. Expedita obcaecati veniam officiis! Lorem ipsum dolor sit amet.?"
+    }
+  ]
+}

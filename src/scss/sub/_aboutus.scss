@@ -1,0 +1,142 @@
+.about {
+	width: 100%;
+	height: 100%;
+	background: url(../img/work3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.intro {
+		height: 550px;
+		width: 100%;
+		.introbox {
+			padding: 30px;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background: rgb(244, 244, 244);
+			text-align: center;
+			width: 70%;
+			border: 1px solid black;
+			h2 {
+				font: bold 40px/1.2 'Quattrocento Sans', sans-serif;
+				margin: 30px 0;
+				color: black;
+			}
+			> h3 {
+				font: bold 15px/1.2;
+				margin-bottom: 10px;
+			}
+			p {
+				width: 100%;
+			}
+		}
+	}
+
+	.project {
+		width: 100%;
+		height: 100%;
+		padding: 40px 0px;
+		background: rgba(11, 11, 11, 0.4);
+
+		.title {
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			h2 {
+				font: bold 40px/1.2 'Quattrocento Sans', sans-serif;
+				margin-bottom: 30px;
+				color: white;
+			}
+		}
+
+		.box {
+			width: 100%;
+			height: 100%;
+			margin-top: 40px;
+			padding-bottom: 20px;
+
+			.name {
+				width: 100%;
+				height: 50px;
+				text-align: center;
+				h3 {
+					display: inline-block;
+					font: bold 25px/1.2 'Quattrocento Sans', sans-serif;
+					color: white;
+				}
+			}
+			.wrap {
+				width: 100%;
+
+				.mySwiper {
+					width: 70%;
+					height: 450px;
+
+					img {
+						width: 100%;
+						height: 100%;
+					}
+					.swiper-pagination {
+						display: none;
+					}
+
+					.swiper-button-next,
+					.swiper-button-prev {
+						color: white;
+					}
+				}
+			}
+		}
+	}
+
+	.journal {
+		width: 100%;
+		height: 100%;
+		margin-top: 50px;
+		padding-bottom: 20px;
+		.title {
+			width: 100%;
+			height: 100%;
+			text-align: center;
+
+			h2 {
+				font: bold 40px/1.2 'Quattrocento Sans', sans-serif;
+				margin-bottom: 30px;
+				color: black;
+			}
+		}
+
+		.wrap {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			position: relative;
+			padding: 0px 20px;
+
+			article {
+				width: 228px;
+				height: 100%;
+
+				.pic {
+					width: 100%;
+					height: 150px;
+					img {
+						width: 100%;
+						height: 100%;
+						filter: grayscale(0.2);
+					}
+				}
+
+				.text {
+					padding: 10px;
+					> h3 {
+						font: bold 15px/1.2;
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+}

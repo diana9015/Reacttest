@@ -1,0 +1,140 @@
+.Members {
+	width: 100%;
+	height: 100%;
+
+	.box {
+		position: relative;
+		width: 100%;
+		height: 550px;
+		text-align: center;
+
+		&::before {
+			content: '';
+			display: block;
+			width: 70%;
+			height: 400px;
+			background: url(../img/member2.jpg);
+			background-position: center;
+			background-size: cover;
+			position: absolute;
+			right: 0;
+			bottom: 0px;
+		}
+
+		&::after {
+			content: '';
+			display: block;
+			width: 70%;
+			height: 400px;
+			background: url(../img/member1.jpg);
+			background-position: center;
+			background-size: cover;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.inner {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 70%;
+			height: 400px;
+			padding: 50px;
+			transform: translate(-50%, -50%);
+			z-index: 4;
+			background: white;
+			border: 1px solid black;
+			h2 {
+				font: bold 40px/1.2 'Quattrocento Sans', sans-serif;
+				margin: 20px 0;
+				color: black;
+			}
+
+			h3 {
+				font: bold 15px/1.1 'arial';
+				margin: 20px 0;
+			}
+			p {
+				margin: 0 auto;
+				width: 70%;
+			}
+			input[type='file'] {
+				background: white;
+				border: 1px solid grey;
+			}
+
+			input[type='submit'] {
+				padding: 5px 30px;
+				margin: 10px;
+				background: rgb(61, 61, 61);
+				color: white;
+				border-radius: 5px;
+				font: normal 15px/1.1 'arial';
+			}
+		}
+	}
+	.memberList {
+		margin-top: 100px;
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		height: 100%;
+
+		li {
+			width: 295px;
+			height: 380px;
+			flex-direction: column;
+			margin-bottom: 50px;
+			position: relative;
+
+			.wrap {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+
+				.pic {
+					width: 90%;
+					margin: auto auto;
+
+					img {
+						width: 100%;
+						height: 100%;
+						border-radius: 50%;
+					}
+				}
+
+				.pro {
+					background: rgb(227, 227, 227);
+					width: 50px;
+					height: 100%;
+					text-align: center;
+					display: flex;
+					margin: 20px auto;
+					flex-direction: column;
+					justify-content: space-between;
+				}
+
+				.say {
+					opacity: 0;
+					position: absolute;
+					width: 295px;
+					height: 380px;
+					background: rgba(11, 11, 11, 0.7);
+					top: 0px;
+
+					p {
+						padding: 30px;
+						color: rgb(234, 232, 232);
+						font: normal 20px/1.2 'DM Sans', sans-serif;
+					}
+				}
+
+				&:hover .say {
+					opacity: 1;
+					transition: 0.8s;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,338 @@
+.visual {
+	width: 100%;
+	height: 100%;
+
+	.inner {
+		width: 100%;
+		height: 100%;
+		.bannerbox {
+			position: absolute;
+			width: 100%;
+			height: 700px;
+			display: block;
+			background: url(../img/main3.jpg);
+			position: relative;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+
+			.wrap {
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.7);
+				position: absolute;
+
+				.text {
+					width: 1180px;
+					height: 100%;
+					margin: 0 auto;
+					display: flex;
+					justify-content: center;
+					flex-direction: column;
+
+					h2 {
+						font: bold 15px/1 'arial';
+						color: white;
+						margin-bottom: 15px;
+					}
+
+					h3 {
+						font: bold 50px/1.3 'arial';
+						color: white;
+					}
+				}
+			}
+		}
+
+		.dis {
+			width: 1180px;
+			height: 100%;
+			margin: 0 auto;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			position: relative;
+			margin-bottom: 50px;
+
+			.box1 {
+				height: 600px;
+				margin-top: 100px;
+				width: 580px;
+				position: relative;
+				display: flex;
+
+				img {
+					width: 100%;
+					height: 100%;
+					filter: grayscale(0.7);
+				}
+
+				.pic1 {
+					position: absolute;
+					left: 0px;
+					top: 0px;
+					height: 500px;
+					width: 49%;
+					background: pink;
+					margin-right: 20px;
+				}
+
+				.pic2 {
+					position: absolute;
+					right: 0px;
+					bottom: 0px;
+					height: 500px;
+					width: 49%;
+					background: skyblue;
+				}
+			}
+
+			.box2 {
+				height: 600px;
+				margin-top: 100px;
+				width: 580px;
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding: 0px 100px;
+				h2 {
+					font: bold 15px/1.3 'arial';
+					margin-bottom: 25px;
+				}
+				h3 {
+					font: bold 40px/1.2 'arial';
+					margin-bottom: 25px;
+				}
+				p {
+					font: normal 15px/1.3 'arial';
+					margin-bottom: 25px;
+				}
+
+				button {
+					padding: 10px 10px;
+					width: 150px;
+					display: inline-block;
+					border: 1px solid black;
+					background: none;
+					cursor: pointer;
+					font: bold 15px/1.3 'arial';
+
+					a {
+						color: black;
+					}
+				}
+			}
+		}
+
+		.serv {
+			width: 100%;
+			height: 700px;
+			background: black;
+			margin: 0 auto;
+			position: relative;
+			.wrap {
+				top: 50%;
+				left: 50%;
+				position: absolute;
+				transform: translate(-50%, -50%);
+				width: 1180px;
+				margin: 0 auto;
+				h2 {
+					font: bold 15px/1.3 'arial';
+					margin-bottom: 25px;
+					color: White;
+				}
+				h3 {
+					font: bold 40px/1.2 'arial';
+					margin-bottom: 50px;
+					color: White;
+				}
+				.box {
+					width: 100%;
+					height: 100%;
+					display: flex;
+
+					article {
+						width: 365px;
+						height: 300px;
+						border: 1px solid rgb(43, 43, 43);
+						margin-right: 20px;
+					}
+				}
+			}
+		}
+		.banner {
+			width: 100%;
+			height: 600px;
+			display: flex;
+			position: relative;
+
+			article {
+				width: 100%;
+				height: 100%;
+
+				&:nth-of-type(1) {
+					background-image: url(../img/square.jpg);
+					background-position: center;
+					background-size: cover;
+				}
+
+				&:nth-of-type(2) {
+					background-image: url(../img/interior.jpg);
+					background-position: center;
+					background-size: cover;
+				}
+
+				&:nth-of-type(3) {
+					background-image: url(../img/furniture.jpg);
+					background-position: center;
+					background-size: cover;
+				}
+
+				.wrap {
+					width: 100%;
+					height: 100%;
+					background: rgba(0, 0, 0, 0.7);
+					position: relative;
+
+					.plus {
+						display: none;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						font: normal 50px/1 'arial';
+						color: white;
+					}
+
+					h3 {
+						bottom: 30px;
+						left: 30px;
+						position: absolute;
+						color: white;
+					}
+
+					&:hover {
+						transition: 0.5s;
+						background: rgba(0, 0, 0, 0.9);
+						cursor: pointer;
+						.plus {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+		.news {
+			width: 100%;
+			height: 850px;
+			position: relative;
+			.wrap {
+				top: 50%;
+				left: 50%;
+				position: absolute;
+				transform: translate(-50%, -50%);
+				width: 1180px;
+				margin: 0 auto;
+				h2 {
+					font: bold 15px/1.3 'arial';
+					margin-bottom: 25px;
+				}
+				h3 {
+					font: bold 40px/1.2 'arial';
+					margin-bottom: 50px;
+				}
+				.box {
+					width: 100%;
+					height: 100%;
+					display: flex;
+					padding-bottom: 50px;
+					justify-content: space-between;
+
+					> article {
+						width: 100%;
+						height: 100%;
+						margin-right: 20px;
+						.pic {
+							width: 380px;
+							height: 180px;
+							img {
+								width: 100%;
+								height: 100%;
+								filter: grayscale(0.2);
+							}
+						}
+						.text {
+							padding: 20px;
+							width: 100%;
+
+							h4 {
+								font: bold 17px/1.3 'arial';
+								margin-bottom: 10px;
+							}
+							h2 {
+								font: bold 15px/1.3 'arial';
+								margin-bottom: 10px;
+							}
+						}
+					}
+				}
+				button {
+					margin: 0 auto;
+					width: 150px;
+					display: block;
+					padding: 10px 10px;
+					border: 1px solid black;
+					background: none;
+					cursor: pointer;
+					font: bold 15px/1.3 'arial';
+				}
+			}
+		}
+		.contact {
+			width: 100%;
+			height: 460px;
+			background: url(../img/bottom_main.jpg);
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+
+			.wrap {
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.8);
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+
+				h2 {
+					width: 50%;
+					font: normal 15px/1.5 'arial';
+					margin-bottom: 25px;
+					color: white;
+				}
+				h3 {
+					width: 50%;
+					font: bold 40px/1.2 'arial';
+					margin-bottom: 25px;
+					color: white;
+				}
+				button {
+					margin: 0 auto;
+					width: 150px;
+					display: block;
+					padding: 10px 10px;
+					border: 1px solid white;
+					background: none;
+					cursor: pointer;
+					font: bold 15px/1.3 'arial';
+					color: white;
+				}
+			}
+		}
+	}
+}
