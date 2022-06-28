@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Reacttest/static/css/main.bf53de21.css",
+    "main.js": "/Reacttest/static/js/main.b168e0ed.js",
+    "static/media/work3.jpg": "/Reacttest/static/media/work3.c41824f4734d4f55a2b8.jpg",
+    "static/media/square.jpg": "/Reacttest/static/media/square.81181dba394506a94d90.jpg",
+    "static/media/furniture.jpg": "/Reacttest/static/media/furniture.add5890c59e56ba8aa3a.jpg",
+    "static/media/interior.jpg": "/Reacttest/static/media/interior.349f363a0343bdbcb22f.jpg",
+    "static/media/member2.jpg": "/Reacttest/static/media/member2.9fc88b14562efa44f6e0.jpg",
+    "static/media/join.jpg": "/Reacttest/static/media/join.6ec130d488c4f3470f47.jpg",
+    "static/media/main3.jpg": "/Reacttest/static/media/main3.438d56667258df663fd2.jpg",
+    "static/media/member1.jpg": "/Reacttest/static/media/member1.fff8804a678b76e1df45.jpg",
+    "static/media/bottom_main.jpg": "/Reacttest/static/media/bottom_main.181e5132eb7f9b29884d.jpg",
+    "index.html": "/Reacttest/index.html",
+    "main.bf53de21.css.map": "/Reacttest/static/css/main.bf53de21.css.map",
+    "main.b168e0ed.js.map": "/Reacttest/static/js/main.b168e0ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf53de21.css",
+    "static/js/main.b168e0ed.js"
+  ]
+}
