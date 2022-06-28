@@ -69,19 +69,36 @@
 					input[id='name'] {
 						width: 48%;
 						margin-right: 4%;
+						font: normal 15px/1 'arial';
+						&::placeholder {
+							font: normal 15px/1 'arial';
+						}
 					}
 					input[id='email'] {
 						width: 48%;
+						font: normal 15px/1 'arial';
+						&::placeholder {
+							font: normal 15px/1 'arial';
+						}
 					}
 
 					input[id='title'] {
 						width: 100%;
+						font: normal 15px/1 'arial';
+						&::placeholder {
+							font: normal 15px/1 'arial';
+						}
 					}
 
 					textarea {
+						padding: 10px;
 						width: 100%;
 						resize: none;
 						margin-bottom: 20px;
+						font: normal 15px/1 'arial';
+						&::placeholder {
+							font: normal 15px/1 'arial';
+						}
 					}
 
 					input[type='submit'] {

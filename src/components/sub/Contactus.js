@@ -74,7 +74,7 @@ function Contactus() {
 									cols='30'
 									rows='20'
 									name='comment'
-									value='YOUR COMMENT'></textarea>
+									placeholder='YOUR COMMENT'></textarea>
 								<input type='submit' value='SEND MESSAGE' />
 							</form>
 						</fieldset>

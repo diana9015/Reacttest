@@ -93,6 +93,7 @@ function Join() {
 	const handleReset = () => {
 		setVal(initVal);
 		setErr({});
+		setIsSubmit(false);
 	};
 
 	useEffect(() => {
